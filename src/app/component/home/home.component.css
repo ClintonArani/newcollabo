@@ -1,0 +1,50 @@
+.main{
+    padding: 5.5rem;
+    flex-direction: column;
+    background-color: aliceblue;
+    
+    
+}
+.main > .landing{
+    background-image: url(../../../../public/assets/bg-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-left: -6rem;
+    margin-right: -6rem;
+    padding-top: 3rem;
+    height: 79vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main > .landing > h1{
+    color: #fff;
+    font-size: 60px;
+    margin-left: 11rem;
+}
+.main > .landing > p{
+    color: #fff;
+    font-size: large;
+    margin-left: 9rem;
+    margin-top: -1rem;
+}
+.main > .landing > button{
+    margin-top: 3rem;
+    width: 11rem;
+    height: 2.5rem;
+    border: none;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+    cursor: pointer;
+    background-color: #ff7200;
+    border-radius: 2rem;
+    color: #fff;
+    transition: all ease-in-out .5s;
+}
+.main > .landing > button:hover{
+    background-color: white;
+    border: solid 2px #ff7200;
+    color: #000;
+}
